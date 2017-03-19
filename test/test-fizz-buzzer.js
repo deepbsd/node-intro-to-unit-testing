@@ -13,7 +13,9 @@ describe('fizzbuzz', function() {
     const normalCases = [
       {num: 45, expected: 'fizz-buzz'},
       {num: 9, expected: 'fizz'},
-      {num: 10, expected: 'buzz'}
+      {num: 10, expected: 'buzz'},
+      {num: 7, expected: 7},
+      {num: -4, expected: -4}
     ];
    // test normal cases for fizz or buzz or fizzbuzz
     normalCases.forEach(function(input) {
