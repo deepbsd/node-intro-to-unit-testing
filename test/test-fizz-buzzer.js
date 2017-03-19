@@ -15,8 +15,7 @@ describe('fizzbuzz', function() {
       {num: 9, expected: 'fizz'},
       {num: 10, expected: 'buzz'}
     ];
-    // for each set of inputs (a, b), `adder` should
-    // produce the expected value
+   // test normal cases for fizz or buzz or fizzbuzz
     normalCases.forEach(function(input) {
       const answer = fizzbuzz(input.num);
       answer.should.equal(input.expected);
